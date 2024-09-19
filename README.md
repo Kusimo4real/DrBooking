@@ -1,40 +1,41 @@
-# Klinik
-*A hospital management System*
+DrBooking - Hospital Management System
+Introduction
+DrBooking is a hospital management system designed to streamline hospital records and facilitate the management of hospital personnel and patient interactions. The software also provides patients the ability to consult with doctors from the comfort of their homes, improving accessibility and efficiency in healthcare services.
 
-## Introduction
-Klinik is a hosptial managment system for organizing hospital records and managing hospital personel and patients. The software also provide patients possilblity of consulting their doctors from the confort of their home. 
+Getting Started
+The DrBooking project is divided into two main components: the backend (server) and the frontend (client). To get started with the project, clone the repository:
 
-## Getting Started
-The repository is categorized into 2, the backend ([server](./server/)) and the frontend ([client](./client/)). To set up the project, clone the repo
-```sh
-git clone https://github.com/standardforever/klinik.git
-```
-Once done, you'll need to setup the server and the client to use the app.
+bash
+Copy code
+git clone https://github.com/standardforever/drbooking.git
+Once you have cloned the repository, you will need to set up both the server and client applications.
 
+For information on how to set up the server, click here.
+For information on how to set up the client, click here.
+Note: Make sure to set up the frontend and backend on different ports.
 
-For information on how to setup the server [click here](./server/README.md) and for the client [click here](./client/README.md)
+Tools
+Development
+Languages: Python, JavaScript, Shell
+Frameworks: Flask, React
+Database: SQLite
+Source Control: Git
+Others: React Query, Swagger Docs, Vim, VS Code
+Production
+Frontend: Netlify Servers
+Backend:
+Server: GNU/Linux
+Web Server: Nginx
+Application Server: Gunicorn
+Code Repository: GitHub
+API Documentation
+API documentation is presented using Swagger UI and can be accessed at DrBooking API.
 
->NB Setup the fronted and the backend on differnt port
-## Tools
-- Developemet
-    - Language: Python, JavaScript, Shell
-    - Framework: Flask, React
-    - Database: SQLite
-    - Source Control: Git
-    - Others: React Query, Swagger Docs, Vim, Vs Code 
-- Production
-    - Frontend: Netlify Servers
-    - Backend
-        - Server: GNU/Linux
-        - Web server: Nginx 
-        - Application Server: Gunicorn
-    - Code repository: Github 
-## API Documentention
-API documentation was presented using [Swagger UI](https://swagger.io/tools/swagger-ui/) and can be accessed at [Klinik API](https://klinik-5ola.onrender.com/api/v1)
+Deployment
+The application demo is live at DrBooking Demo 🚀🚀🚀
 
-## Deployment
-Application demo is live at [Klinik Demo 🚀🚀🚀](https://klinik-demo.netlify.app)
-## Authors
-Here is the [list](./AUTHORS) of everyone involved in this project. 
+Authors
+Here is the list of everyone involved in this project:
 
+Abdulsemiu Kusimo - Developer & Maintainer
 
