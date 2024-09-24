@@ -1,6 +1,6 @@
 import styled, {css} from 'styled-components';
 import { devices } from '../../assets/breakpoint';
-import img2 from "../../assets/team/Abdulsemiukusimo.png";
+import img1 from "../../assets/team/Abdulsemiukusimo.png";
 
 
 export const TeamContainer = styled.div`
@@ -21,14 +21,11 @@ export const Figure = styled.figure`
   overflow: hidden;
   border-radius: 100%;
   margin: 0 auto;
-
  
-
-  ${(props) => props.team2 && css`
-    background-image: url(${img2});
+  ${(props) => props.developer && css`
+    background-image: url(${img1});
   `}
   
- 
   background-position: center;
   background-size: cover;
 `;

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 // import { Figure, Img } from "../img/img.styled";
-import vid from '../../assets/demo/demo.webm'
+
 import { Video } from "./product.style";
 
 const ProductComponent = () => {
@@ -28,8 +28,8 @@ const ProductComponent = () => {
       }}
     >
       <Video controls>
-        <source src={vid} type="video/webm" />
-        not compartible
+        {/* <source src={vid} type="video/webm" />
+        not compartible */}
       </Video>
       {/* <Figure>
         <Img src="" alt="Product Screenshot" />
